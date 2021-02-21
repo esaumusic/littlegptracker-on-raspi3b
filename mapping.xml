@@ -1,0 +1,14 @@
+<MAPPINGS>
+<MAP src="joy:0:1-" dst="/event/up" />
+<MAP src="joy:0:1+" dst="/event/down" />
+<MAP src="joy:0:0-" dst="/event/left" />
+<MAP src="joy:0:0+" dst="/event/right" />
+<MAP src="but:0:0" dst="/event/a" />
+<MAP src="but:0:1" dst="/event/b" />
+<MAP src="but:0:2" dst="/event/a" />
+<MAP src="but:0:3" dst="/event/b" />
+<MAP src="but:0:5" dst="/event/rshoulder" />
+<MAP src="but:0:4" dst="/event/lshoulder" />
+<MAP src="but:0:7" dst="/event/start" />
+<MAP src="but:0:6" dst="/tempo/tap" />
+</MAPPINGS>
