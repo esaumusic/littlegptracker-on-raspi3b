@@ -1,10 +1,10 @@
 # How To Install LittleGPTracker On Raspberry Pi 3B+
 ## Preface
-This is how I managed to get up and running with LittleGPTracker on my RaspberryPi3B+ as of 2/20/2021.
-Callouts: 
+This is how I managed to get up and running with LittleGPTracker on my RaspberryPi3B+ as of 2/20/2021. I am in no way affiliated with the amazing people who made LittleGPTracker. Just a big fan who wants to keep it alive!
+#### Callouts 
 * This guide is geared towards using Raspberry Pi OS Lite (CLI only, no desktop GUI).
-* Also tested and works with full Raspberry OS installation and gets you out of a few steps (wifi setup, localization keyboard settings, etc.)
-* It's annoying that the lgpt excecutable has to live in `/bin` folder for this to work and requires project files and samples to live in `/usr`. Not very tidy.
+* Also tested and works with full Raspberry OS installation and gets you out of a few steps (wifi setup, localization keyboard settings, etc.) but where's the fun in that?
+* It's annoying that the lgpt excecutable has to live in `/bin` folder for this to work and requires project files and samples to live in `/usr`. Not very tidy. Also because excecutable is in /bin, if you drop config.xml in there to customize colors of lgpt things stop working, so don't!
 
 ## Installation
 1. Install [Raspberry OS][1].
